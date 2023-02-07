@@ -1,8 +1,6 @@
 import React from 'react';
 import { useDispatch } from 'react-redux';
 import { useRouter } from 'next/router';
-import { FaFilter } from 'react-icons/fa';
-import { BiSearch } from 'react-icons/bi';
 import { AiOutlineEye } from 'react-icons/ai';
 
 import { incrementSkip, decrementSkip } from '@/redux/slices/cartSlice';

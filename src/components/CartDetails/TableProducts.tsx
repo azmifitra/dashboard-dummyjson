@@ -39,7 +39,6 @@ function TableProductsCartDetails({ data }: CartDetailsProps) {
                   <td className="text-gray-500">$ {item.price}</td>
                   <td className="text-gray-500">{item.discountPercentage} %</td>
                   <td className="font-medium">$ {item.discountedPrice}</td>
-                  {/* <td>{item}</td> */}
                 </tr>
               ))}
             </tbody>

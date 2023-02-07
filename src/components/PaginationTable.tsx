@@ -1,5 +1,4 @@
 import React from 'react';
-import { useSelector, useDispatch } from 'react-redux';
 import { MdOutlineArrowForwardIos, MdOutlineArrowBackIos } from 'react-icons/md';
 
 type PaginationProps = {
@@ -12,9 +11,6 @@ type PaginationProps = {
 };
 
 function PaginationTable({ limit, skip, total, isLoading, onClickNext, onClickPrev }: PaginationProps) {
-  // const { skip } = useSelector((state: RootState) => state.product);
-  const dispatch = useDispatch();
-
   if (total) {
     return (
       <div className="my-2 flex flex-col items-center sm:flex-row sm:justify-between">
