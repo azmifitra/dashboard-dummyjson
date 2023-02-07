@@ -1,0 +1,43 @@
+/* ============================================================================= */
+.loadingWrapper {
+  width: 400px;
+  height: 200px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.bar {
+  display: block;
+  height: 54px;
+  width: 10px;
+  background: #7e22ce;
+  margin-right: 24px;
+  animation: scale 0.7s ease-in-out infinite;
+  transform-origin: 50% 50%;
+  box-shadow: 2px 2px 2px #3b3b3b;
+}
+
+.bar.one {
+  animation-delay: 0s;
+}
+
+.bar.two {
+  animation-delay: 0.2s;
+}
+
+.bar.three {
+  animation-delay: 0.4s;
+}
+
+@keyframes scale {
+  0% {
+    transform: scale(1);
+  }
+  50% {
+    transform: scale(1.5);
+  }
+  100% {
+    transform: scale(1);
+  }
+}

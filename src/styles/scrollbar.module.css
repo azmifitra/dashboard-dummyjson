@@ -1,0 +1,15 @@
+div.customScrollbar::-webkit-scrollbar {
+  @apply h-2;
+}
+
+div.customScrollbar::-webkit-scrollbar-track {
+  @apply bg-pink-100;
+}
+
+div.customScrollbar::-webkit-scrollbar-thumb {
+  @apply rounded-full bg-purple-400;
+}
+
+div.customScrollbar::-webkit-scrollbar-thumb:hover {
+  @apply bg-purple-500;
+}
